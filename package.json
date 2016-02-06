@@ -1,0 +1,56 @@
+{
+  "name": "eslint-config-standard-jsx",
+  "description": "JavaScript Standard Style JSX support - ESLint Shareable Config",
+  "version": "0.0.0",
+  "author": {
+    "name": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "http://feross.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/feross/eslint-config-standard-jsx/issues"
+  },
+  "peerDependencies": {
+    "eslint-plugin-react": ">=2.7.1"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/feross/eslint-config-standard-jsx",
+  "keywords": [
+    "standard",
+    "style checker",
+    "code style",
+    "code checker",
+    "code linter",
+    "style linter",
+    "simple",
+    "policy",
+    "style",
+    "code",
+    "lint",
+    "eslint",
+    "eslintconfig",
+    "jshint",
+    "jscs",
+    "hint",
+    "enforce",
+    "check",
+    "verify",
+    "quality",
+    "checker",
+    "code standards",
+    "JavaScript Standard Style",
+    "standard style",
+    "jsx"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/feross/eslint-config-standard-jsx.git"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  }
+}

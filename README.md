@@ -1,4 +1,4 @@
-# Standard React - ESLint Shareable Config
+# Standard JSX - ESLint Shareable Config
 [![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]

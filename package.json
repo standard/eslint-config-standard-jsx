@@ -10,10 +10,6 @@
   "bugs": {
     "url": "https://github.com/feross/eslint-config-standard-jsx/issues"
   },
-  "peerDependencies": {
-    "eslint": "^2.1.0 || ^3.0.0",
-    "eslint-plugin-react": ">=2.7.1"
-  },
   "devDependencies": {
     "eslint": "^2.1.0",
     "eslint-plugin-react": ">=2.7.1",
@@ -21,34 +17,38 @@
   },
   "homepage": "https://github.com/feross/eslint-config-standard-jsx",
   "keywords": [
-    "standard",
-    "style checker",
-    "code style",
+    "JavaScript Standard Style",
+    "check",
+    "checker",
+    "code",
     "code checker",
     "code linter",
-    "style linter",
-    "simple",
-    "policy",
-    "style",
-    "code",
-    "lint",
+    "code standards",
+    "code style",
+    "enforce",
     "eslint",
     "eslintconfig",
-    "jshint",
-    "jscs",
     "hint",
-    "enforce",
-    "check",
-    "verify",
+    "jscs",
+    "jshint",
+    "jsx",
+    "lint",
+    "policy",
     "quality",
-    "checker",
-    "code standards",
-    "JavaScript Standard Style",
+    "simple",
+    "standard",
     "standard style",
-    "jsx"
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
   ],
   "license": "MIT",
   "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=2.0.0",
+    "eslint-plugin-react": ">=2.7.1"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/feross/eslint-config-standard-jsx.git"

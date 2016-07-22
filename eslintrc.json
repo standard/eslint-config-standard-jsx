@@ -11,7 +11,6 @@
   ],
 
   "rules": {
-    "jsx-quotes": [2, "prefer-double"],
     "react/jsx-boolean-value": 2,
     "react/jsx-curly-spacing": [2, "never"],
     "react/jsx-equals-spacing": [2, "never"],

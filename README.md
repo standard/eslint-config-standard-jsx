@@ -46,7 +46,7 @@ instead.)
 Here's how to install everything you need:
 
 ```bash
-npm install eslint-config-standard eslint-config-standard-jsx eslint-plugin-react
+npm install eslint-config-standard eslint-config-standard-jsx eslint-plugin-promise eslint-plugin-react eslint-plugin-standard
 ```
 
 Then, add this to your .eslintrc file:

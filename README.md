@@ -35,7 +35,7 @@ rules provided in
 It doesn't assume that you're using React, so other virtual DOM libraries like
 `virtual-dom` and `deku` are supported.
 
-Even thought this config is JSX only (no React), it makes use of
+Even though this config is JSX only (no React), it makes use of
 [`eslint-plugin-react`](https://npmjs.com/package/eslint-plugin-react) for its generic
 JSX rules.
 

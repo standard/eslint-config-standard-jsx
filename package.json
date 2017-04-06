@@ -11,9 +11,9 @@
     "url": "https://github.com/feross/eslint-config-standard-jsx/issues"
   },
   "devDependencies": {
-    "eslint": "^3.0.1",
-    "eslint-plugin-react": ">=2.7.1",
-    "tape": "^4.0.0"
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^6.10.3",
+    "tape": "^4.6.3"
   },
   "homepage": "https://github.com/feross/eslint-config-standard-jsx",
   "keywords": [
@@ -46,8 +46,8 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "eslint": ">=3.0.0",
-    "eslint-plugin-react": ">=2.7.1"
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^6.10.3"
   },
   "repository": {
     "type": "git",

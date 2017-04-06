@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-standard-jsx",
   "description": "JavaScript Standard Style JSX support - ESLint Shareable Config",
-  "version": "3.3.0",
+  "version": "4.0.0",
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",

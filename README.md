@@ -1,7 +1,7 @@
 # eslint-config-standard-jsx [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
-[travis-image]: https://img.shields.io/travis/feross/eslint-config-standard-jsx/master.svg
-[travis-url]: https://travis-ci.org/feross/eslint-config-standard-jsx
+[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg
+[travis-url]: https://travis-ci.org/standard/eslint-config-standard-jsx
 [npm-image]: https://img.shields.io/npm/v/eslint-config-standard-jsx.svg
 [npm-url]: https://npmjs.org/package/eslint-config-standard-jsx
 [downloads-image]: https://img.shields.io/npm/dm/eslint-config-standard-jsx.svg

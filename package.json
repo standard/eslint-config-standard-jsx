@@ -46,7 +46,7 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "eslint": ">=5.0.0-alpha.2",
+    "eslint": ">=5.0.0",
     "eslint-plugin-react": ">=7.6.1"
   },
   "repository": {

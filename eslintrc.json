@@ -20,7 +20,10 @@
     "react/jsx-indent-props": ["error", 2],
     "react/jsx-no-duplicate-props": "error",
     "react/jsx-no-undef": "error",
-    "react/jsx-tag-spacing": ["error", { "beforeSelfClosing": "always" }],
+    "react/jsx-tag-spacing": ["error", {
+      "beforeSelfClosing": "always",
+      "beforeClosing": "never"
+    }],
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
     "react/self-closing-comp": "error"

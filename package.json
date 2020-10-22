@@ -11,9 +11,9 @@
     "url": "https://github.com/standard/eslint-config-standard-jsx/issues"
   },
   "devDependencies": {
-    "eslint": "^6.2.2",
-    "eslint-plugin-react": "^7.14.2",
-    "tape": "^5.0.0"
+    "eslint": "^7.11.0",
+    "eslint-plugin-react": "^7.21.5",
+    "tape": "^5.0.1"
   },
   "homepage": "https://github.com/standard/eslint-config-standard-jsx",
   "keywords": [
@@ -46,8 +46,8 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "eslint": ">=6.2.2",
-    "eslint-plugin-react": ">=7.14.2"
+    "eslint": ">=7.11.0",
+    "eslint-plugin-react": ">=7.21.5"
   },
   "repository": {
     "type": "git",

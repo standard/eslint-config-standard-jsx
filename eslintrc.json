@@ -21,29 +21,6 @@
   },
 
   "rules": {
-    "react/jsx-wrap-multilines": ["error", {
-      "declaration": "parens-new-line",
-      "assignment": "parens-new-line",
-      "return": "parens-new-line",
-      "arrow": "ignore",
-      "condition": "ignore",
-      "logical": "ignore",
-      "prop": "ignore"
-    }],
-    "react/no-children-prop": "error",
-    "react/no-danger-with-children": "error",
-    "react/no-deprecated": "error",
-    "react/no-direct-mutation-state": "error",
-    "react/require-render-return": "error",
-    "react/no-unescaped-entities": ["error", {
-      "forbid": [">", "}"]
-    }],
-    "react/no-string-refs": ["error", {
-      "noTemplateLiterals": true
-    }],
-    "react/no-render-return-value": "error",
-    "react/no-is-mounted": "error",
-    "react/no-find-dom-node": "error",
     "jsx-quotes": ["error", "prefer-single"],
     "react/jsx-boolean-value": "error",
     "react/jsx-closing-bracket-location": ["error", "tag-aligned"],
@@ -81,6 +58,29 @@
     }],
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
+    "react/jsx-wrap-multilines": ["error", {
+      "declaration": "parens-new-line",
+      "assignment": "parens-new-line",
+      "return": "parens-new-line",
+      "arrow": "ignore",
+      "condition": "ignore",
+      "logical": "ignore",
+      "prop": "ignore"
+    }],
+    "react/no-children-prop": "error",
+    "react/no-danger-with-children": "error",
+    "react/no-deprecated": "error",
+    "react/no-direct-mutation-state": "error",
+    "react/no-find-dom-node": "error",
+    "react/no-is-mounted": "error",
+    "react/no-string-refs": ["error", {
+      "noTemplateLiterals": true
+    }],
+    "react/no-unescaped-entities": ["error", {
+      "forbid": [">", "}"]
+    }],
+    "react/no-render-return-value": "error",
+    "react/require-render-return": "error",
     "react/self-closing-comp": "error"
   }
 }

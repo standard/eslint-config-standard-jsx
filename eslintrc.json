@@ -21,6 +21,15 @@
   },
 
   "rules": {
+    "react/jsx-wrap-multilines": ["error", {
+      "declaration": "parens-new-line",
+      "assignment": "parens-new-line",
+      "return": "parens-new-line",
+      "arrow": "ignore",
+      "condition": "ignore",
+      "logical": "ignore",
+      "prop": "ignore"
+    }],
     "react/no-children-prop": "error",
     "react/no-danger-with-children": "error",
     "react/no-deprecated": "error",

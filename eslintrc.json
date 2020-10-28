@@ -11,6 +11,12 @@
     "react"
   ],
 
+  "settings": {
+    "linkComponents": [
+      "Link"
+    ]
+  },
+
   "rules": {
     "jsx-quotes": ["error", "prefer-single"],
     "react/jsx-boolean-value": "error",

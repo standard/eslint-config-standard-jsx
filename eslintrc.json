@@ -18,6 +18,7 @@
   },
 
   "rules": {
+    "react/no-children-prop": "error",
     "jsx-quotes": ["error", "prefer-single"],
     "react/jsx-boolean-value": "error",
     "react/jsx-closing-bracket-location": ["error", "tag-aligned"],

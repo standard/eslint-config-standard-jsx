@@ -22,6 +22,9 @@
     "react/no-danger-with-children": "error",
     "react/no-deprecated": "error",
     "react/no-direct-mutation-state": "error",
+    "react/no-unescaped-entities": ["error", {
+      "forbid": [">", "}"]
+    }],
     "react/no-string-refs": ["error", {
       "noTemplateLiterals": true
     }],

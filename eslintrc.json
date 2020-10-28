@@ -21,6 +21,7 @@
     "react/no-children-prop": "error",
     "react/no-danger-with-children": "error",
     "react/no-deprecated": "error",
+    "react/no-direct-mutation-state": "error",
     "jsx-quotes": ["error", "prefer-single"],
     "react/jsx-boolean-value": "error",
     "react/jsx-closing-bracket-location": ["error", "tag-aligned"],

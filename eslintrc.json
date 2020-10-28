@@ -35,7 +35,9 @@
     "react/jsx-handler-names": "error",
     "react/jsx-indent": ["error", 2, { "checkAttributes": true, "indentLogicalExpressions": true }],
     "react/jsx-indent-props": ["error", 2],
-    "react/jsx-key": "error",
+    "react/jsx-key": ["error", {
+      "checkFragmentShorthand": true
+    }],
     "react/jsx-no-comment-textnodes": "error",
     "react/jsx-no-duplicate-props": "error",
     "react/jsx-no-target-blank": ["error", { "enforceDynamicLinks": "always" }],

@@ -37,7 +37,7 @@
     "react/jsx-fragments": ["error", "syntax"],
     "react/jsx-handler-names": "error",
     "react/jsx-indent": ["error", 2, {
-      "checkAttributes": true,
+      "checkAttributes": false,
       "indentLogicalExpressions": true
     }],
     "react/jsx-indent-props": ["error", 2],

@@ -47,7 +47,7 @@
     "react/jsx-no-comment-textnodes": "error",
     "react/jsx-no-duplicate-props": "error",
     "react/jsx-no-target-blank": ["error", { "enforceDynamicLinks": "always" }],
-    "react/jsx-no-undef": "error",
+    "react/jsx-no-undef": ["error", { "allowGlobals": true }],
     "react/jsx-pascal-case": ["error", { "allowAllCaps": false }],
     "react/jsx-props-no-multi-spaces": "error",
     "react/jsx-tag-spacing": ["error", {

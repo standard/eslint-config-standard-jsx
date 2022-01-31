@@ -1,26 +1,22 @@
-const eslint = require('eslint')
+const { ESLint } = require('eslint')
 const test = require('tape')
 
 test('load config in eslint to validate all rule syntax is correct', function (t) {
-  const CLIEngine = eslint.CLIEngine
-
-  const cli = new CLIEngine({
+  const cli = new ESLint({
     useEslintrc: false,
-    configFile: 'eslintrc.json'
+    overrideConfigFile: 'eslintrc.json'
   })
 
   const code = 'var foo = 1\nvar bar = function () {}\nbar(foo)\n'
 
-  t.equal(cli.executeOnText(code).errorCount, 0)
+  t.equal(cli.lintText(code).errorCount, 0)
   t.end()
 })
 
 test('space before an opening tag\'s closing bracket should not be allowed', t => {
-  const CLIEngine = eslint.CLIEngine
-
-  const cli = new CLIEngine({
+  const cli = new ESLint({
     useEslintrc: false,
-    configFile: 'eslintrc.json'
+    overrideConfigFile: 'eslintrc.json'
   })
 
   const shouldPass = {
@@ -59,12 +55,12 @@ test('space before an opening tag\'s closing bracket should not be allowed', t =
   t.plan(testPlansCount)
 
   for (const testCase in shouldPass) {
-    const { errorCount } = cli.executeOnText(shouldPass[testCase])
+    const { errorCount } = cli.lintText(shouldPass[testCase])
     t.equal(errorCount, 0)
   }
 
   for (const testCase in shouldFail) {
-    const { errorCount } = cli.executeOnText(shouldFail[testCase])
+    const { errorCount } = cli.lintText(shouldFail[testCase])
     t.true(errorCount > 0)
   }
 })
